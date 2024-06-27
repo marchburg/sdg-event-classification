@@ -26,11 +26,12 @@ This repository aims to provide resources for the automated classification of ev
 
 SDG-Event-Classification/
 ├── data/
-│   ├── ground_truth_train.csv
+│ ├── ground_truth_train.csv
+│ ├── ground_truth_features_grouped_train.csv
 ├── scripts/
-│   ├── bert_fine_tuning.py
-│   ├── catboost_shap.py
-│   ├── llm_annotation.py
+│ ├── bert_fine_tuning.py
+│ ├── catboost_shap.py
+│ ├── llm_annotation.py
 ├── README.md
 └── LICENSE
 
