@@ -6,7 +6,6 @@ This repository contains the data and scripts used for the classification of SDG
 - [sdg-event-classification](#sdg-event-classification)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
-  - [Repository Structure](#repository-structure)
   - [Data Description](#data-description)
     - [Dataset Columns](#dataset-columns)
   - [Scripts and Usage](#scripts-and-usage)
@@ -22,7 +21,7 @@ This repository contains the data and scripts used for the classification of SDG
 ## Introduction
 This repository aims to provide resources for the automated classification of events related to the Sustainable Development Goals (SDGs) in corporate sustainability reports. The provided dataset and scripts facilitate the replication of our study and enable further research in this domain.
 
-## Repository Structure
+<!-- ## Repository Structure
 
 SDG-Event-Classification/
 ├── data/
@@ -33,7 +32,7 @@ SDG-Event-Classification/
 │ ├── catboost_shap.py
 │ ├── llm_annotation.py
 ├── README.md
-└── LICENSE
+└── LICENSE -->
 
 
 ## Data Description
