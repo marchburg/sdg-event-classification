@@ -1,0 +1,132 @@
+document,event_trigger,Measurability,Temporal Status,Event Factuality,Keyword is Nsubj,Keyword is Dobj,Keyword is Pobj,category
+1.txt,75-83 [includes],1,ongoing,_,False,False,True,situation
+10.txt,125-135 [delivering],2,ongoing,max,False,True,False,action
+10.txt,27-36 [improving],1,ongoing,max,False,False,False,action
+100.txt,111-118 [support],2,ongoing,low,False,True,False,action
+100.txt,19-26 [focuses],1,ongoing,max,True,False,False,situation
+100.txt,30-37 [working],2,future,low,False,False,True,intention
+102.txt,103-110 [promote],1,past,medium,False,True,False,intention
+102.txt,43-50 [reduced],2,past,max,False,True,False,action
+103.txt,62-75 [are committed],1,ongoing,max,False,False,False,belief
+103.txt,79-104 [promoting and maintaining],1,ongoing,medium,False,False,True,belief
+104.txt,49-75 [developing and maintaining],1,ongoing,low,False,True,False,intention
+105.txt,106-113 [leading],3,future,medium,False,False,True,situation
+106.txt,8-16 [reported],2,past,max,False,True,False,action
+106.txt,88-100 [in line with],2,ongoing,_,False,False,True,situation
+11.txt,43-52 [benefited],1,past,max,False,False,True,situation
+110.txt,63-67 [have],1,future,_,False,True,False,belief
+111.txt,115-121 [access],1,ongoing,low,False,False,False,intention
+111.txt,59-75 [adapt and modify],1,ongoing,low,False,False,False,intention
+113.txt,116-128 [is published],1,ongoing,max,False,False,True,situation
+116.txt,39-46 [achieve],3,future,max,False,True,False,intention
+117.txt,25-32 [promote],2,future,low,False,False,True,intention
+118.txt,43-49 [reduce],2,future,low,False,True,False,intention
+118.txt,79-88 [integrate],1,future,low,False,True,False,intention
+119.txt,33-43 [considered],1,past,max,False,False,True,situation
+12.txt,42-50 [included],2,past,max,False,True,True,action
+12.txt,51-61 [respecting],1,ongoing,_,False,True,False,belief
+120.txt,29-38 [reporting],2,ongoing,max,True,False,True,situation
+125.txt,31-40 [improving],2,ongoing,low,False,True,False,intention
+126.txt,12-23 [established],1,past,max,False,False,True,action
+129.txt,7-16 [committed],1,ongoing,max,False,False,True,belief
+13.txt,124-131 [address],1,ongoing,high,False,False,True,action
+13.txt,68-74 [manage],1,ongoing,low,False,False,False,action
+13.txt,79-86 [restore],2,ongoing,low,False,True,False,action
+130.txt,48-55 [related],2,ongoing,_,False,False,True,situation
+131.txt,8-16 [captures],2,ongoing,max,False,True,True,situation
+133.txt,40-52 [can be found],1,ongoing,max,False,False,False,situation
+134.txt,6-13 [include],1,ongoing,max,False,True,False,situation
+135.txt,45-49 [have],2,ongoing,_,False,False,True,situation
+136.txt,77-83 [use of],2,ongoing,_,False,False,True,action
+137.txt,103-111 [position],1,ongoing,high,False,False,True,action
+137.txt,22-31 [partnered],1,past,max,False,True,True,action
+139.txt,25-34 [realizing],1,future,low,False,True,True,intention
+14.txt,50-56 [ensure],2,ongoing,medium,False,False,False,action
+141.txt,106-110 [face],2,future,max,False,False,False,situation
+141.txt,50-57 [focused],2,ongoing,max,False,False,True,action
+141.txt,8-18 [introduced],2,past,max,False,True,False,action
+142.txt,31-40 [Achieving],2,future,low,False,False,True,intention
+143.txt,26-34 [governed],1,ongoing,max,False,False,True,situation
+144.txt,23-31 [disclose],1,ongoing,low,False,True,False,belief
+145.txt,13-16 [met],3,past,max,False,False,True,action
+147.txt,28-37 [providing],2,ongoing,medium,False,True,False,intention
+148.txt,20-30 [subsidised],2,ongoing,max,False,False,False,situation
+149.txt,20-33 [communicating],1,ongoing,low,False,False,False,intention
+17.txt,25-27 [is],1,ongoing,_,True,False,False,belief
+18.txt,64-72 [emphasis],1,ongoing,_,False,False,True,belief
+19.txt,13-18 [treat],1,ongoing,low,False,False,True,intention
+20.txt,36-42 [change],1,ongoing,max,False,False,True,situation
+20.txt,77-84 [support],1,ongoing,max,False,True,False,action
+21.txt,154-162 [conducts],2,ongoing,max,True,False,False,action
+21.txt,36-43 [reviews],1,ongoing,max,True,True,False,action
+22.txt,51-59 [increase],4,future,max,False,False,True,intention
+23.txt,73-81 [proposed],2,past,max,False,True,True,action
+27.txt,64-69 [found],2,ongoing,max,False,False,True,situation
+29.txt,148-155 [promote],1,ongoing,max,False,True,False,intention
+29.txt,3-6 [use],1,ongoing,max,False,True,False,action
+29.txt,47-54 [working],1,ongoing,max,False,False,True,action
+29.txt,73-80 [support],1,ongoing,high,False,True,False,intention
+3.txt,37-57 [consider and promote],1,ongoing,low,False,False,False,belief
+30.txt,143-150 [include],2,ongoing,_,False,False,True,situation
+32.txt,21-28 [not run],1,ongoing,negative,False,False,True,situation
+32.txt,48-56 [separate],1,ongoing,low,False,True,True,situation
+33.txt,8-14 [closed],2,past,max,False,False,True,action
+34.txt,65-73 [increase],1,future,low,False,True,True,intention
+35.txt,112-120 [increase],1,ongoing,low,False,True,False,situation
+35.txt,168-174 [reduce],1,past,medium,False,True,False,situation
+36.txt,41-48 [support],1,ongoing,_,False,True,False,action
+36.txt,8-12 [have],1,ongoing,max,False,True,False,situation
+38.txt,12-35 [preventing and reducing],2,ongoing,medium,False,True,False,intention
+38.txt,61-71 [maximising],1,ongoing,high,False,True,True,intention
+39.txt,45-55 [recommends],1,ongoing,max,True,False,False,situation
+39.txt,78-85 [oversee],1,ongoing,low,False,True,True,intention
+41.txt,10-19 [volunteer],1,ongoing,max,True,False,True,situation
+42.txt,20-28 [ensuring],4,future,medium,False,True,False,intention
+43.txt,125-133 [reducing],5,future,low,False,True,False,intention
+43.txt,41-49 [reducing],2,future,low,False,True,False,intention
+44.txt,15-23 [has been],1,past,_,True,False,False,situation
+45.txt,52-61 [committed],1,ongoing,max,False,False,True,belief
+46.txt,52-58 [ensure],1,future,low,False,True,False,intention
+47.txt,31-38 [enables],1,ongoing,max,False,False,True,situation
+49.txt,67-78 [informed by],1,ongoing,max,False,False,False,situation
+5.txt,36-49 [incorporating],1,ongoing,max,False,False,True,action
+50.txt,28-38 [prioritise],1,ongoing,max,False,False,False,action
+51.txt,71-80 [escalated],2,past,max,False,False,False,action
+53.txt,40-44 [were],1,past,_,False,False,True,situation
+53.txt,70-80 [prevention],2,past,_,False,False,True,action
+56.txt,10-18 [increase],2,future,low,False,False,False,intention
+57.txt,3-8 [drive],2,ongoing,max,False,False,True,action
+58.txt,107-116 [promotion],2,ongoing,_,False,False,True,intention
+59.txt,11-17 [covers],2,ongoing,max,False,False,True,situation
+59.txt,82-92 [contribute],1,ongoing,max,False,False,True,situation
+60.txt,102-108 [allows],2,ongoing,max,False,False,True,action
+60.txt,37-48 [has not set],2,past,negative,False,False,True,action
+60.txt,7-15 [interest],1,ongoing,_,False,False,True,belief
+62.txt,182-192 [delivering],1,past,high,False,True,True,action
+62.txt,29-36 [honored],2,past,max,False,False,True,situation
+65.txt,70-81 [underpinned],1,ongoing,max,False,False,True,belief
+66.txt,112-124 [do not cause],2,ongoing,negative,False,False,True,intention
+67.txt,107-113 [impact],1,ongoing,max,False,False,True,situation
+71.txt,28-38 [respecting],1,ongoing,low,False,False,True,belief
+71.txt,73-79 [reduce],1,ongoing,low,False,False,True,intention
+73.txt,103-114 [distributed],1,ongoing,max,False,False,False,situation
+74.txt,68-79 [to be aware],1,ongoing,_,False,False,True,intention
+75.txt,14-22 [launched],2,past,max,False,True,False,action
+76.txt,34-37 [are],1,ongoing,_,True,False,False,belief
+79.txt,17-20 [are],1,ongoing,_,True,False,False,belief
+8.txt,21-31 [relates to],1,ongoing,_,False,False,False,situation
+8.txt,36-47 [development],1,future,high,False,False,True,intention
+80.txt,164-179 [are best served],1,ongoing,medium,False,False,False,belief
+81.txt,155-160 [adapt],2,future,low,False,False,True,belief
+82.txt,124-132 [evaluate],2,past,max,True,False,False,action
+83.txt,109-116 [measure],2,ongoing,max,False,False,True,situation
+85.txt,12-20 [is based],1,ongoing,_,False,False,True,belief
+87.txt,28-37 [improving],1,ongoing,medium,False,True,True,intention
+87.txt,84-94 [protecting],1,ongoing,low,False,True,False,intention
+89.txt,37-48 [included in],1,ongoing,max,False,False,True,situation
+9.txt,57-65 [achieved],1,ongoing,medium,False,False,False,situation
+92.txt,5-12 [include],1,ongoing,_,False,True,True,situation
+93.txt,95-107 [demonstrated],1,ongoing,max,False,False,True,belief
+94.txt,53-62 [conducted],1,ongoing,medium,False,False,True,intention
+96.txt,136-139 [was],4,past,_,False,False,True,situation
+98.txt,26-36 [protecting],1,ongoing,low,False,True,True,intention
