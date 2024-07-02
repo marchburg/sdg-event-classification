@@ -40,7 +40,7 @@ SDG-Event-Classification/
 <!-- TODO: add link to annotation guideline -->
 <!-- TODO: add link to ESG-BERT datasets -->
 
-The `ground_truth_train.csv` and `ground_truth_train.csv` datasets contains annotated events extracted from sustainability reports. The `ground_truth_features_grouped_train.csv` and `ground_truth_features_grouped_test.csv` dataset contains only the feature values grouped for each event trigger. Train and test sets are split 70/30. Below is a description of each column in the dataset:
+The `ground_truth_train.csv` and `ground_truth_train.csv` datasets contains annotated events extracted from sustainability reports. The `ground_truth_features_grouped_train.csv` and `ground_truth_features_grouped_test.csv` dataset contains the feature values grouped for each event trigger. Train and test sets are split 70/30. Below is a description of each column in the dataset:
 
 ### Dataset Columns
 - `document`: The identifier for the document from which the sentence was extracted.
