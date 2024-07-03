@@ -12,10 +12,6 @@ This repository contains the data and scripts used for the classification of SDG
     - [BERT Fine-Tuning](#bert-fine-tuning)
     - [CatBoost and SHAP Analysis](#catboost-and-shap-analysis)
     - [LLM Annotation](#llm-annotation)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
   - [Contact](#contact)
 
 ## Introduction
@@ -38,13 +34,16 @@ SDG-Event-Classification/
 ## Data Description
 
 <!-- TODO: add link to annotation guideline -->
-<!-- TODO: add link to ESG-BERT datasets -->
 
-The `ground_truth_train.csv` and `ground_truth_train.csv` datasets contains annotated events extracted from sustainability reports. The `ground_truth_features_grouped_train.csv` and `ground_truth_features_grouped_test.csv` dataset contains the feature values grouped for each event trigger. Train and test sets are split 70/30. Below is a description of each column in the dataset:
+The annotation of the dataset was performed based on the guidelines provided in `annotation_guideline.pdf`.
+
+The `ground_truth_train.csv` and `ground_truth_train.csv` datasets contains annotated events extracted from sustainability reports. The sentences are from the ESGBERT [environmental_2k](https://huggingface.co/datasets/ESGBERT/environmental_2k) and [social_2k](https://huggingface.co/datasets/ESGBERT/social_2k) datasets.
+
+The `ground_truth_features_grouped_train.csv` and `ground_truth_features_grouped_test.csv` dataset contains the feature values grouped for each event trigger. Train and test sets are split 70/30. Below is a description of each column in the dataset:
 
 ### Dataset Columns
 - `document`: The identifier for the document from which the sentence was extracted.
-- `text`: The full sentence from the document.
+- `text`: The full sentence from a sustainability report.
 - `keyword`: The SDG-related keyword(s) identified within the sentence.
 - `event_trigger`: The word or phrase indicating the occurrence of an event.
 - `temporal_status`: The temporal status of the event (past, ongoing, future).
@@ -62,31 +61,29 @@ The `ground_truth_train.csv` and `ground_truth_train.csv` datasets contains anno
 ## Scripts and Usage
 
 ### BERT Fine-Tuning
-- **Script:** `bert_fine_tuning.py`
+- **Script:** `classification_bert.ipynb`
 - **Description:** This script fine-tunes a BERT model on the annotated dataset to classify SDG-related events.
-- **Usage:** Provide instructions on how to run the script, including command-line arguments and expected output.
 
 ### CatBoost and SHAP Analysis
-- **Script:** `catboost_shap.py`
+- **Script:** `catboost_shap.ipynb`
 - **Description:** This script trains a CatBoost model on the event features and uses SHAP values to interpret feature importance.
-- **Usage:** Provide instructions on how to run the script, including command-line arguments and expected output.
 
 ### LLM Annotation
 - **Script:** `llm_annotation.py`
 - **Description:** This script utilizes GPT-3.5 and GPT-4 models to annotate events in the dataset.
-- **Usage:** Provide instructions on how to run the script, including command-line arguments and expected output.
+- **Usage:** `$python llm_annotation.py`
 
-## Installation
+<!-- ## Installation
 Instructions on how to set up the environment, including required dependencies and how to install them.
 
 ## Usage
 Step-by-step instructions on how to use the dataset and scripts provided in the repository.
 
 ## Contributing
-Guidelines for contributing to the repository.
+Guidelines for contributing to the repository. -->
 
-## License
-Details about the licensing of the repository.
+<!-- ## License
+Details about the licensing of the repository. -->
 
 ## Contact
-Contact information for questions and support.
+m.burghart@campus.tu-berlin.de
