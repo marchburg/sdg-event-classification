@@ -1,2 +1,5 @@
 .venv
 .env
+
+scripts/llm_annotation/prompts/__pycache__/
+scripts/outputs

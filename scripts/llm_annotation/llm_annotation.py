@@ -180,7 +180,7 @@ def main():
     df_input = load_input_data('../../data')
 
     # df_select = df_input.copy()
-    df_select = df_input.sample(4).copy() # for testing
+    df_select = df_input.sample(2).copy() # for testing
 
     # Select the annotation tasks
     selected_tasks = tasks.keys()
@@ -199,3 +199,6 @@ def main():
     output_path = f'output/{model}/{current_date}/ground_truth_llm.csv'
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     df_gpt.to_csv(output_path, index=False)
+
+if __name__ == "__main__":
+    main()
