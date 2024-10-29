@@ -1,0 +1,39 @@
+path:
+  train_path: './data/ground_truth_train.csv'  # Path to the training data CSV file
+  test_path: './data/ground_truth_test.csv'    # Path to the test data CSV file
+  output_dir: './data/processed'               # Directory to save processed data
+
+trainer:
+  num_train_epochs: 5                          # Number of training epochs
+  learning_rate: 8.521786512851659e-05         # Learning rate for the optimizer
+  train_batch_size: 8                          # Batch size for training
+  eval_batch_size: 24                          # Batch size for evaluation
+  max_seq_length: 512                          # Maximum sequence length for model inputs
+  output_dir: "outputs/"                       # Directory to save model outputs
+  overwrite_output_dir: True                   # Overwrite contents of the output directory if it exists
+  device: "cuda"                               # Device to use for training ('cuda' for GPU, "cpu" for CPU) 
+  use_kfold: True                              # Whether to use K-Fold cross-validation
+  n_splits: 5                                  # Number of folds for K-Fold cross-validation
+
+
+models:
+  albert: False                                # Albert model
+  bert: False                                  # BERT model
+  bertweet: False                              # BERTweet model
+  bigbird: False                               # BigBird model
+  camembert: False                             # CamemBERT model
+  deberta: False                               # DeBERTa model
+  distilbert: False                            # DistilBERT model
+  electra: False                               # ELECTRA model
+  flaubert: False                              # FlauBERT model
+  herbert: False                               # HerBERT model
+  layoutlm: False                              # LayoutLM model
+  layoutlmv2: False                            # LayoutLMv2 model
+  longformer: False                            # Longformer model
+  mpnet: False                                 # MPNet model
+  rembert: False                               # Reformer model
+  roberta: True                                # RoBERTa model
+  squeezebert: False                           # SqueezeBERT model
+  xlm: False                                   # XLM model
+  xlmroberta: False                            # XLM-RoBERTa model
+  xlnet: False                                 # XLNet model
